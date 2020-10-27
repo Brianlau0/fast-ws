@@ -1,4 +1,4 @@
-package com.yl.fast.core.utils;
+package com.yy.fast.core.utils;
 
 import java.util.Collection;
 import java.util.Set;
