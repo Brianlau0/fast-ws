@@ -1,3 +1,5 @@
 # fast-ws
 
-Very simple kotlin blog system for share the content purpose, using Spring Boot, jdbctemplate and thymeleaf to deveopments.
+Simple kotlin blog system for share the content purpose, using Spring Boot, jdbcTemplate and thymeleaf to developments.
+
+No front page thymeleaf template web pages to attached so far.
