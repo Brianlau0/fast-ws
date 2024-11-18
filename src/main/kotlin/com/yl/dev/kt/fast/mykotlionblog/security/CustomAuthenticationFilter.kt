@@ -1,4 +1,4 @@
-package com.zy.dev.kotlin.blog.security
+package com.yl.dev.kt.fast.mykotlionblog.security
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.http.MediaType

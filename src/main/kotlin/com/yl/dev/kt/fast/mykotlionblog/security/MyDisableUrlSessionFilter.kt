@@ -1,4 +1,4 @@
-package com.zy.dev.kotlin.blog.security
+package com.yl.dev.kt.fast.mykotlionblog.security
 
 import org.springframework.stereotype.Component
 

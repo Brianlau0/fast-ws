@@ -27,7 +27,7 @@ object DiaryUtils {
      * @return
      */
     private fun isEmpty(str: CharSequence?): Boolean {
-        return str == null || str.isEmpty()
+        return str.isNullOrEmpty()
     }
 
     /**
@@ -198,7 +198,9 @@ object DiaryUtils {
         val baseSize = 1024
         val format = DecimalFormat("####.00")
         return when {
-            size < baseSize -> size.toString() + "bytes"
+            size < baseSize -> {
+                size.toString() + "bytes"
+            }
             size < baseSize * baseSize -> {
                 val kbSize = size / 1024f
                 format.format(kbSize.toDouble()) + "KB"
@@ -211,7 +213,9 @@ object DiaryUtils {
                 val gbSize = size.toFloat() / 1024f / 1024f / 1024f
                 format.format(gbSize.toDouble()) + "GB"
             }
-            else -> "size: error"
+            else -> {
+                "size: error"
+            }
         }
     }
 
