@@ -6,3 +6,5 @@ No front page thymeleaf template web pages to attached so far. ---add say templa
 
 
 --I want put all ny fast development templates to this project to init that for easy use for the long term projects.
+
+--It will update to the new springboot 3.0 in the next version.
